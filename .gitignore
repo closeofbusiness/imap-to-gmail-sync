@@ -1,0 +1,31 @@
+# Secrets / local config
+.env
+.env.*
+!.env.example
+credentials.json
+token.json
+*.pem
+*.key
+id_*
+id_*.pub
+
+# State + data
+*.sqlite
+*.db
+.imap_to_gmail_sync/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+dist/
+build/
+
+# Editors / OS
+.DS_Store
+.vscode/
+.idea/
